@@ -1,0 +1,38 @@
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: lightcyan;
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightblue;
+}
+
+.cart-button {
+    padding: 10px 20px;
+    background-color: lavender;
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 30px;
+    color: mediumslateblue;
+}
+
+.goods-list {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.goods-item {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid powderblue;
+    border-radius: 5px;
+}
